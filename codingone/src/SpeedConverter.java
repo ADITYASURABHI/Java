@@ -14,7 +14,6 @@ public class SpeedConverter {
             long miles = Math.round(kilometersPerHour / 1.609);
             return miles;
 
-
         }
     }
 
@@ -27,7 +26,7 @@ public class SpeedConverter {
             //long milesPerHour = toMilesPerHour(kilometersPerHour);
             System.out.println(kilometersPerHour + " km/h " + "= " + milesPerHour + " mi/h ");
         }
-
+    System.out.println("hello");
     }
 
 }
